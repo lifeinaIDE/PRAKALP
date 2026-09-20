@@ -1,0 +1,7 @@
+alert_id,local_code,alert_type,severity,status,assigned_to
+ALT-001,FAST-XX-001,Missing UOM,High,Open,USR-003
+ALT-002,W96999900001,Missing Specs,High,Open,USR-001
+ALT-003,VLV-UNK-01,Ambiguous Description,Medium,In Progress,USR-002
+ALT-004,88990011,Obsolete Codes,Medium,Resolved,USR-005
+ALT-005,55990022,Internal Duplicates,Low,Open,USR-004
+ALT-006,FAST-HB-1050B,Internal Duplicates,Low,Open,USR-003

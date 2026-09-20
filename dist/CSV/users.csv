@@ -1,0 +1,12 @@
+user_id,name,email,role,plant_code,designation,status,last_login
+USR-001,Ravi Kumar Sharma,ravi.kumar.sharma@bhel.gov.in,CPSE Data Steward,BHEL-HEEP,Senior Materials Officer,Active,2026-08-21 00:00
+USR-002,Anjali Deshmukh,anjali.deshmukh@ntpc.gov.in,CPSE Data Steward,NTPC-TPS,Materials Management Officer,Active,2026-08-22 00:00
+USR-003,Suresh Patnaik,suresh.patnaik@sail.gov.in,CPSE Data Steward,SAIL-RSP,Deputy Manager - Stores,Active,2026-08-23 00:00
+USR-004,Farhan Ahmed,farhan.ahmed@iocl.gov.in,CPSE Data Steward,IOCL-BR,Materials Officer,Active,2026-08-24 00:00
+USR-005,Meera Iyer,meera.iyer@ongc.gov.in,CPSE Data Steward,ONGC-HZR,Senior Materials Officer,Active,2026-08-25 00:00
+USR-006,Vikram Nair,vikram.nair@bpcl.gov.in,CPSE Data Steward,BPCL-MR,Materials Management Officer,Active,2026-08-26 00:00
+USR-007,Dr. Priya Venkataraman,priya.venkataraman@samaan.gov.in,Technical Reviewer,,"Chief Technical Reviewer, Bearings & Mechanical",Active,2026-08-27 00:00
+USR-008,Sanjeev Rathi,sanjeev.rathi@samaan.gov.in,Technical Reviewer,,"Technical Reviewer, Electrical & Cables",Active,2026-08-28 00:00
+USR-009,Kavita Reddy,kavita.reddy@samaan.gov.in,Technical Reviewer,,"Technical Reviewer, Valves & Piping",Active,2026-08-29 00:00
+USR-010,Ashok Bhalla,ashok.bhalla@samaan.gov.in,National Admin,,National Program Administrator,Active,2026-08-30 00:00
+USR-011,Neha Kapoor,neha.kapoor@samaan.gov.in,National Admin,,Deputy Administrator - Governance,Active,2026-08-31 00:00

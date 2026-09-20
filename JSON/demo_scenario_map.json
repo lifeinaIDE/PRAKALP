@@ -1,0 +1,47 @@
+{
+  "purpose": "Reference sheet for live demonstration. Maps a specific input action to the exact canned response file/record it should trigger, so the demo behaves identically on every run.",
+  "scenarios": [
+    {
+      "flow": "CPSE Data Steward - Data Onboarding",
+      "action": "Upload a file named containing 'BHEL' or select plant BHEL-HEEP with a clean sample",
+      "triggers_response_file": "validation_result_success.json",
+      "expected_ui_state": "Green validation banner, all 15 records passed, proceed-to-mapping button enabled."
+    },
+    {
+      "flow": "CPSE Data Steward - Data Onboarding",
+      "action": "Upload a file named containing 'SAIL' or select plant SAIL-RSP with the prepared error sample",
+      "triggers_response_file": "validation_result_failure.json",
+      "expected_ui_state": "Amber/red validation banner, 3 of 12 records failed, field-level error table shown for rows 4 and 7."
+    },
+    {
+      "flow": "CPSE Data Steward - New Code Request",
+      "action": "Submit description 'Ball Bearing 6205, Double Shield Type' for plant NTPC-TPS",
+      "triggers_response_file": "duplicate_prevention_check_match_found.json",
+      "expected_ui_state": "Duplicate Prevention Gate shows matched CNMC-BRG-00001 with Trust Score 94 and Reuse/Proceed options."
+    },
+    {
+      "flow": "CPSE Data Steward - New Code Request",
+      "action": "Submit description 'Explosion-Proof Junction Box, 20-Way, IP66' for plant IOCL-BR",
+      "triggers_response_file": "duplicate_prevention_check_no_match.json",
+      "expected_ui_state": "No Match Found message; request proceeds directly to Technical Review queue."
+    },
+    {
+      "flow": "Technical Reviewer - Pending Match Queue",
+      "action": "Open group MG-0001 (Ball Bearing 6205 ZZ, BHEL-HEEP vs NTPC-TPS)",
+      "triggers_response_file": "match_results.csv row MG-0001",
+      "expected_ui_state": "Trust Score 94, Exact Match, side-by-side spec comparison, Approve action available."
+    },
+    {
+      "flow": "Technical Reviewer - Pending Match Queue",
+      "action": "Open the lowest trust-score group in match_results.csv (rejected pump/motor mismatch)",
+      "triggers_response_file": "match_results.csv lowest trust_score row",
+      "expected_ui_state": "Trust Score 22, Not a Match, Reject action pre-selected with system rationale shown."
+    },
+    {
+      "flow": "National Admin - Analytics",
+      "action": "Open National Analytics Dashboard on login",
+      "triggers_response_file": "dashboard_stats_admin.json",
+      "expected_ui_state": "Six summary cards, records-by-plant bar chart, migration progress gauge."
+    }
+  ]
+}

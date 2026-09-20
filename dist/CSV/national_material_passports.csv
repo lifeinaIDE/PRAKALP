@@ -1,0 +1,31 @@
+passport_id,cnmc_code,canonical_description,technical_specifications,manufacturer_info,lifecycle_status,functional_equivalents,audit_trail_reference
+PASS-00001,CNMC-BRG-00001,Deep Groove Ball Bearing 6205 ZZ,6205; ZZ shielded,Multiple approved vendors (see CPSE vendor master),Under Review,None,LOG-1001
+PASS-00002,CNMC-BRG-00002,Deep Groove Ball Bearing 6305 ZZ,6305; ZZ,Multiple approved vendors (see CPSE vendor master),Active,None,LOG-1002
+PASS-00003,CNMC-FAS-00003,Hex Bolt M10 × 50 mm,"M10 x 50mm, Grade 8.8",Approved vendor list maintained by procurement cell,Under Review,None,LOG-1003
+PASS-00004,CNMC-FAS-00004,Hex Bolt M16 × 100 mm,"M16 x 100mm, Grade 10.9",Approved vendor list maintained by procurement cell,Active,None,LOG-1004
+PASS-00005,CNMC-VLV-00005,"Globe Valve 4 inch, Carbon Steel","4 inch, Carbon Steel WCB",OEM-agnostic; standard IS/ISO spec item,Active,None,LOG-1005
+PASS-00006,CNMC-ELC-00006,Copper Control Cable 2 Core × 1.5 sq mm,"2 Core, 1.5 sq mm, Copper PVC",Approved vendor list maintained by procurement cell,Under Review,None,LOG-1006
+PASS-00007,CNMC-MEP-00007,Three-Phase Induction Motor 1 HP,"1 HP, 3-Phase, 415V, 4-Pole",Multiple approved vendors (see CPSE vendor master),Active,CNMC-MEP-00030,LOG-1007
+PASS-00008,CNMC-BRG-00008,Deep Groove Ball Bearing 6206 ZZ,6206; ZZ,Approved vendor list maintained by procurement cell,Active,None,LOG-1008
+PASS-00009,CNMC-BRG-00009,Cylindrical Roller Bearing NU220,NU220; Cylindrical,Multiple approved vendors (see CPSE vendor master),Active,None,LOG-1009
+PASS-00010,CNMC-BRG-00010,Taper Roller Bearing 30206,30206; Tapered,Multiple approved vendors (see CPSE vendor master),Active,None,LOG-1010
+PASS-00011,CNMC-FAS-00011,Hex Bolt M10 × 75 mm,"M10 x 75mm, Grade 8.8",Multiple approved vendors (see CPSE vendor master),Active,CNMC-FAS-00017,LOG-1011
+PASS-00012,CNMC-FAS-00012,Hex Bolt M12 × 60 mm,M12 x 60mm,Multiple approved vendors (see CPSE vendor master),Active,CNMC-FAS-00011,LOG-1012
+PASS-00013,CNMC-FAS-00013,Hex Nut M10,M10 standard,Multiple approved vendors (see CPSE vendor master),Active,None,LOG-1013
+PASS-00014,CNMC-FAS-00014,Hex Nut M12,M12 standard,Approved vendor list maintained by procurement cell,Under Review,None,LOG-1014
+PASS-00015,CNMC-FAS-00015,Hex Nut M16,M16 standard,OEM-agnostic; standard IS/ISO spec item,Under Review,CNMC-FAS-00004,LOG-1015
+PASS-00016,CNMC-FAS-00016,Spring Washer M10,M10,Multiple approved vendors (see CPSE vendor master),Under Review,CNMC-FAS-00015,LOG-1016
+PASS-00017,CNMC-FAS-00017,Spring Washer M16,M16,OEM-agnostic; standard IS/ISO spec item,Under Review,None,LOG-1017
+PASS-00018,CNMC-FAS-00018,Stud M16 × 100 mm,M16 x 100mm,Multiple approved vendors (see CPSE vendor master),Active,None,LOG-1018
+PASS-00019,CNMC-VLV-00019,"Gate Valve 2 inch, Carbon Steel","2 inch, Carbon Steel WCB, Class 150",Approved vendor list maintained by procurement cell,Active,CNMC-VLV-00023,LOG-1019
+PASS-00020,CNMC-VLV-00020,"Ball Valve 1 inch, Stainless Steel","1 inch, SS316, Screwed End",Multiple approved vendors (see CPSE vendor master),Active,None,LOG-1020
+PASS-00021,CNMC-VLV-00021,"Check Valve 2 inch, Carbon Steel","2 inch, Swing Check, CS",Approved vendor list maintained by procurement cell,Under Review,CNMC-VLV-00023,LOG-1021
+PASS-00022,CNMC-VLV-00022,Solenoid Valve 24V DC,"24V DC, 2-way, Brass body",Multiple approved vendors (see CPSE vendor master),Active,CNMC-VLV-00021,LOG-1022
+PASS-00023,CNMC-VLV-00023,Pneumatic Control Valve 2 inch,"2 inch, Pneumatic Actuated",Multiple approved vendors (see CPSE vendor master),Under Review,None,LOG-1023
+PASS-00024,CNMC-ELC-00024,Copper Power Cable 3 Core × 2.5 sq mm,"3 Core, 2.5 sq mm, Copper, Armoured",Approved vendor list maintained by procurement cell,Active,None,LOG-1024
+PASS-00025,CNMC-ELC-00025,Copper Power Cable 3 Core × 4 sq mm,"3 Core, 4 sq mm, Copper",Approved vendor list maintained by procurement cell,Active,CNMC-ELC-00027,LOG-1025
+PASS-00026,CNMC-ELC-00026,Aluminium Cable Lug 50 sq mm,"50 sq mm, Aluminium",Multiple approved vendors (see CPSE vendor master),Active,None,LOG-1026
+PASS-00027,CNMC-ELC-00027,Copper Cable Lug 25 sq mm,"25 sq mm, Copper, Tinned",OEM-agnostic; standard IS/ISO spec item,Active,None,LOG-1027
+PASS-00028,CNMC-MEP-00028,Three-Phase Induction Motor 5 HP,"5 HP, 3-Phase, TEFC, IE2",Multiple approved vendors (see CPSE vendor master),Active,None,LOG-1028
+PASS-00029,CNMC-MEP-00029,Three-Phase Induction Motor 10 HP,"10 HP, 3-Phase, 415V, IE3",OEM-agnostic; standard IS/ISO spec item,Active,None,LOG-1029
+PASS-00030,CNMC-MEP-00030,Centrifugal Pump 1 HP,"1 HP, Monoblock, CI Body",OEM-agnostic; standard IS/ISO spec item,Active,None,LOG-1030

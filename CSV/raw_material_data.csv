@@ -1,0 +1,72 @@
+local_code,cpse_name,description,uom,specification,category,material_ref,is_complete,validation_status,quality_score
+W96413500247,BHEL-HEEP,Ball Bearing 6205 ZZ,NOS,6205; ZZ shielded,Bearings & Bushings,Deep Groove Ball Bearing 6205 ZZ,True,Passed,98
+BRG-6206-ZZ,NTPC-TPS,"Deep Groove Bearing 6206, ZZ",NOS,6206; ZZ,Bearings & Bushings,Deep Groove Ball Bearing 6206 ZZ,True,Passed,89
+BEAR-6305-Z2,SAIL-RSP,Bearing 6305 Double Shielded,PCS,6305; ZZ,Bearings & Bushings,Deep Groove Ball Bearing 6305 ZZ,True,Passed,88
+98123456,ONGC-HZR,"Bearing, Ball, Deep Groove 6306 ZZ",NOS,6306; ZZ,Bearings & Bushings,Deep Groove Ball Bearing 6306 ZZ,True,Passed,99
+W96414500120,BHEL-HEEP,Roller Bearing NU220,NOS,NU220; Cylindrical,Bearings & Bushings,Cylindrical Roller Bearing NU220,True,Passed,92
+BRG-NU221-00,NTPC-TPS,Cylindrical Roller Brg NU221,NOS,NU221,Bearings & Bushings,Cylindrical Roller Bearing NU221,True,Passed,91
+55443322,IOCL-BR,Taper Roller Bearing 30205,NOS,30205; Tapered,Bearings & Bushings,Taper Roller Bearing 30205,True,Passed,91
+BEAR-30206,SAIL-RSP,Bearing 30206 Taper Roller,PCS,30206; Tapered,Bearings & Bushings,Taper Roller Bearing 30206,True,Passed,90
+W96415500890,BHEL-HEEP,Spherical Roller Bearing 22210,NOS,22210,Bearings & Bushings,Spherical Roller Bearing 22210,True,Passed,99
+PLB-P205-001,NTPC-TPS,Plummer Block Assy P205,SET,P205,Bearings & Bushings,Plummer Block Bearing P205,True,Passed,89
+FAST-HB-1050,SAIL-RSP,"Bolt, Hex Head M10x50 HT",KGS,"M10 x 50mm, Grade 8.8",Fasteners,Hex Bolt M10 × 50 mm,True,Passed,98
+77221100,ONGC-HZR,Hex Bolt M10 x 75mm,KGS,"M10 x 75mm, Grade 8.8",Fasteners,Hex Bolt M10 × 75 mm,True,Passed,99
+W96489001260,BHEL-HEEP,Hex Bolt M12x60 IS 1364,NOS,M12 x 60mm,Fasteners,Hex Bolt M12 × 60 mm,True,Passed,96
+BLT-M16-100,NTPC-TPS,Bolt Hexagonal M16x100,NOS,"M16 x 100mm, Grade 10.9",Fasteners,Hex Bolt M16 × 100 mm,True,Passed,89
+55667788,IOCL-BR,Hex Bolt M20 x 120mm,NOS,"M20 x 120mm, Grade 8.8",Fasteners,Hex Bolt M20 × 120 mm,True,Passed,97
+FAST-HN-10,SAIL-RSP,Nut Hex M10,KGS,M10 standard,Fasteners,Hex Nut M10,True,Passed,94
+W96489100120,BHEL-HEEP,Hex Nut M12 IS 1364,NOS,M12 standard,Fasteners,Hex Nut M12,True,Passed,88
+NUT-M16-000,NTPC-TPS,Hex Nut M16 Grade 8,NOS,M16 standard,Fasteners,Hex Nut M16,True,Passed,88
+77334410,ONGC-HZR,"Washer, Flat M10",KGS,"M10, Punched",Fasteners,Flat Washer M10,True,Passed,89
+FAST-FW-16,SAIL-RSP,Flat Washer M16 Machined,KGS,M16,Fasteners,Flat Washer M16,True,Passed,91
+55778810,IOCL-BR,Spring Washer M10,NOS,M10,Fasteners,Spring Washer M10,True,Passed,91
+W96489200160,BHEL-HEEP,Spring Washer M16 IS 3063,NOS,M16,Fasteners,Spring Washer M16,True,Passed,96
+STD-M16-100,NTPC-TPS,Stud Bolt M16x100 w/ 2 Nuts,SET,M16 x 100mm,Fasteners,Stud M16 × 100 mm,True,Passed,97
+FAST-SH-0845,SAIL-RSP,Allen Screw M8x45,NOS,"M8 x 45mm, SHCS",Fasteners,Socket Head Cap Screw M8 × 45 mm,True,Passed,88
+W96489300120,BHEL-HEEP,Nyloc Nut M12,NOS,"M12, Self-locking",Fasteners,Self-locking Nut M12,True,Passed,96
+44551122,IOCL-BR,"Valve, Gate, 2"", WCB",NOS,"2 inch, Carbon Steel WCB, Class 150",Valves,"Gate Valve 2 inch, Carbon Steel",True,Passed,91
+88442211,ONGC-HZR,"Gate Valve 4"" Flanged CS",NOS,"4 inch, Carbon Steel, Class 300",Valves,"Gate Valve 4 inch, Carbon Steel",True,Passed,99
+W96511200200,BHEL-HEEP,Globe Valve 50NB CS,NOS,"2 inch (50NB), CS, Flanged",Valves,"Globe Valve 2 inch, Carbon Steel",True,Passed,98
+VLV-GLB-04CS,NTPC-TPS,Valve Globe 4 Inch CS WCB,NOS,"4 inch, Carbon Steel WCB",Valves,"Globe Valve 4 inch, Carbon Steel",True,Passed,99
+VAL-BL-10SS,SAIL-RSP,"Ball Valve 1"" SS316",NOS,"1 inch, SS316, Screwed End",Valves,"Ball Valve 1 inch, Stainless Steel",True,Passed,96
+33221155,BPCL-MR,"Valve, Ball 2"" SS Flanged",NOS,"2 inch, SS304, Class 150",Valves,"Ball Valve 2 inch, Stainless Steel",True,Passed,94
+44551166,IOCL-BR,"Check Valve 2"" Swing Type CS",NOS,"2 inch, Swing Check, CS",Valves,"Check Valve 2 inch, Carbon Steel",True,Passed,91
+VLV-BTY-04CI,NTPC-TPS,Butterfly Valve 100NB CI,NOS,"4 inch, Cast Iron, Wafer Type",Valves,"Butterfly Valve 4 inch, Cast Iron",True,Passed,95
+W96515000240,BHEL-HEEP,"Solenoid Valve 24V DC 1/2""",NOS,"24V DC, 2-way, Brass body",Valves,Solenoid Valve 24V DC,True,Passed,97
+88449900,ONGC-HZR,"Control Valve, Pneumatic 2""",NOS,"2 inch, Pneumatic Actuated",Valves,Pneumatic Control Valve 2 inch,True,Passed,92
+CBL-CU-3C2.5,NTPC-TPS,Cable 3C x 2.5 Sqmm Cu,MTR,"3 Core, 2.5 sq mm, Copper, Armoured",Electrical & Cables,Copper Power Cable 3 Core × 2.5 sq mm,True,Passed,88
+W96611000340,BHEL-HEEP,Power Cable 3Cx4 Sqmm Cu,MTR,"3 Core, 4 sq mm, Copper",Electrical & Cables,Copper Power Cable 3 Core × 4 sq mm,True,Passed,90
+CAB-PWR-4C16,SAIL-RSP,4C x 16 sqmm Copper Cable XLPE,MTR,"4 Core, 16 sq mm, XLPE Insulated",Electrical & Cables,Copper Power Cable 4 Core × 16 sq mm,True,Passed,99
+66778899,IOCL-BR,Control Cable 2C x 1.5 Sqmm,MTR,"2 Core, 1.5 sq mm, Copper PVC",Electrical & Cables,Copper Control Cable 2 Core × 1.5 sq mm,True,Passed,94
+33445566,BPCL-MR,Control Cable 4Cx1.5 Sqmm Cu,MTR,"4 Core, 1.5 sq mm, Copper PVC",Electrical & Cables,Copper Control Cable 4 Core × 1.5 sq mm,True,Passed,93
+LUG-AL-025,NTPC-TPS,Cable Lug Al 25 Sqmm,NOS,"25 sq mm, Aluminium, Ring Type",Electrical & Cables,Aluminium Cable Lug 25 sq mm,True,Passed,92
+99112233,ONGC-HZR,"Lug, Cable, Aluminium 50 sq mm",NOS,"50 sq mm, Aluminium",Electrical & Cables,Aluminium Cable Lug 50 sq mm,True,Passed,90
+W96622000250,BHEL-HEEP,Copper Lug 25 Sqmm Heavy Duty,NOS,"25 sq mm, Copper, Tinned",Electrical & Cables,Copper Cable Lug 25 sq mm,True,Passed,91
+LUG-BM-050,SAIL-RSP,Bimetallic Lug 50 Sqmm,NOS,"50 sq mm, Al-Cu Bimetallic",Electrical & Cables,Bimetallic Cable Lug 50 sq mm,True,Passed,93
+66887711,IOCL-BR,Terminal Block 2.5 Sqmm 10A,NOS,"10 A, 2.5 sq mm, DIN Rail Mount",Electrical & Cables,"Terminal Block 10 A, 2.5 sq mm",True,Passed,89
+W96711000100,BHEL-HEEP,"Motor, Induction 3Ph 1HP",NOS,"1 HP, 3-Phase, 415V, 4-Pole",Motors & Pumps,Three-Phase Induction Motor 1 HP,True,Passed,89
+MOT-3PH-05HP,NTPC-TPS,5 HP 3-Phase Induction Motor,NOS,"5 HP, 3-Phase, TEFC, IE2",Motors & Pumps,Three-Phase Induction Motor 5 HP,True,Passed,94
+MOT-IND-10HP,SAIL-RSP,Induction Motor 10HP AC,NOS,"10 HP, 3-Phase, 415V, IE3",Motors & Pumps,Three-Phase Induction Motor 10 HP,True,Passed,89
+88776655,ONGC-HZR,"Pump, Centrifugal 1 HP",NOS,"1 HP, Monoblock, CI Body",Motors & Pumps,Centrifugal Pump 1 HP,True,Passed,93
+55661122,IOCL-BR,Centrifugal Water Pump 5HP,NOS,"5 HP, Coupled, Base plate mounted",Motors & Pumps,Centrifugal Pump 5 HP,True,Passed,93
+W-BHL-62Z-DUP,NTPC-TPS,"Ball Bearing 6205, ZZ Type, Deep Groove",NOS,6205 series; double shield,Bearings & Bushings,Deep Groove Ball Bearing 6205 ZZ,True,Passed,94
+SL-BRG-6305X,ONGC-HZR,Bearing DGBB 6305 2Z,PCS,6305; 2Z shield type,Bearings & Bushings,Deep Groove Ball Bearing 6305 ZZ,True,Passed,83
+TRB-30205-IOC,BHEL-HEEP,"Taper Roller Brg 30205, Single Row",NOS,30205; single row tapered,Bearings & Bushings,Taper Roller Bearing 30205,True,Passed,76
+SPH-22210-B,SAIL-RSP,Spherical Roller Bearing 22210 CC,NOS,22210; CC cage,Bearings & Bushings,Spherical Roller Bearing 22210,True,Passed,89
+BOLT-HX-1050SL,ONGC-HZR,"Hexagon Head Bolt M10x50, HT",KGS,M10x50mm; property class 8.8,Fasteners,Hex Bolt M10 × 50 mm,True,Passed,92
+HB-M16100-N,IOCL-BR,"Bolt, Hex Hd, M16 x 100mm",NOS,M16x100; Gr 10.9 zinc pltd,Fasteners,Hex Bolt M16 × 100 mm,True,Passed,78
+HN-M12-BHL2,NTPC-TPS,"Hexagonal Nut M12, IS1364 Pt3",NOS,M12; standard hex,Fasteners,Hex Nut M12,True,Passed,87
+GV-2IN-CS-ON,ONGC-HZR,"Gate Valve 2"" CS Body, Class150",NOS,2 inch; carbon steel; screwed,Valves,"Gate Valve 2 inch, Carbon Steel",True,Passed,77
+GLV-04-CS-S,SAIL-RSP,Globe Valve 4in Carbon Steel Body,NOS,4 inch; CS; flanged end,Valves,"Globe Valve 4 inch, Carbon Steel",True,Passed,92
+BLV-1IN-SS-B,BPCL-MR,"Ball Valve 1"" SS316 Screwed",NOS,1 inch; SS316; 2-piece body,Valves,"Ball Valve 1 inch, Stainless Steel",True,Passed,84
+SOL-24VDC-N,NTPC-TPS,"Solenoid Valve, 24V DC, Brass Body",NOS,24VDC; 1/2 inch; 2-way NC,Valves,Solenoid Valve 24V DC,True,Passed,95
+CBL-3C25-B,BHEL-HEEP,Power Cable 3 Core 2.5 Sqmm Cu Armoured,MTR,3C x 2.5 sqmm; XLPE; armoured,Electrical & Cables,Copper Power Cable 3 Core × 2.5 sq mm,True,Passed,94
+CTRL-2C15-BP,BPCL-MR,Control Cable 2Core 1.5 Sqmm Copper,MTR,2C x 1.5 sqmm; PVC insulated,Electrical & Cables,Copper Control Cable 2 Core × 1.5 sq mm,True,Passed,86
+MTR-1HP-3PH-N,NTPC-TPS,"Induction Motor 3-Phase, 1 HP, TEFC",NOS,1 HP; 3-phase; 415V; TEFC,Motors & Pumps,Three-Phase Induction Motor 1 HP,True,Passed,93
+PMP-1HP-CF-I,IOCL-BR,"Centrifugal Pump, 1 HP, Monoblock",NOS,1 HP; monoblock; cast iron body,Motors & Pumps,Centrifugal Pump 1 HP,True,Passed,81
+FAST-XX-001,SAIL-RSP,Bolt Assorted,,,Fasteners,Hex Bolt (Ungraded),False,Failed,32
+W96999900001,BHEL-HEEP,Bearing - misc type,NOS,,Bearings & Bushings,Unclassified Bearing,False,Failed,41
+VLV-UNK-01,NTPC-TPS,Valve,NOS,,Valves,Unclassified Valve,False,Failed,28
+88990011,ONGC-HZR,"Cable - old stock, type discontinued 2019",MTR,Legacy spec sheet withdrawn,Electrical & Cables,Obsolete Cable Type,False,Failed,35
+55990022,IOCL-BR,Motor 5HP 3phase,NOS,"5 HP, 3-Phase, TEFC, IE2",Motors & Pumps,Three-Phase Induction Motor 5 HP,True,Flagged,58
+FAST-HB-1050B,SAIL-RSP,"Bolt, Hex Head M10x50 HT, resubmitted batch",KGS,"M10 x 50mm, Grade 8.8",Fasteners,Hex Bolt M10 × 50 mm,True,Flagged,61

@@ -1,0 +1,33 @@
+{
+  "generated_on": "2026-08-20T09:00:00+05:30",
+  "summary_cards": {
+    "total_cpse_plants_onboarded": 6,
+    "total_records_in_system": 71,
+    "total_cnmc_entries_approved": 30,
+    "pending_technical_reviews": 8,
+    "open_data_quality_alerts": 4,
+    "open_disputes": 1
+  },
+  "records_by_plant": {
+    "BHEL-HEEP": 15,
+    "BPCL-MR": 4,
+    "IOCL-BR": 11,
+    "NTPC-TPS": 16,
+    "ONGC-HZR": 11,
+    "SAIL-RSP": 14
+  },
+  "data_quality_by_plant": {
+    "BHEL-HEEP": 1,
+    "NTPC-TPS": 1,
+    "SAIL-RSP": 2,
+    "IOCL-BR": 1,
+    "ONGC-HZR": 1,
+    "BPCL-MR": 0
+  },
+  "migration_progress": {
+    "total_source_records": 71,
+    "records_mapped_to_cnmc": 60,
+    "migration_percentage": 42.3
+  },
+  "note": "National figures aggregate all onboarded CPSE plants as of the reporting date shown above."
+}

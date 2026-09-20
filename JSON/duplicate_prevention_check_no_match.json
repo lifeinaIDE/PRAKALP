@@ -1,0 +1,14 @@
+{
+  "check_id": "DPC-2026-01188",
+  "submitted_local_code": "PROPOSED-GEN-8841",
+  "submitted_description": "Explosion-Proof Junction Box, 20-Way, IP66",
+  "plant_code": "IOCL-BR",
+  "checked_on": "2026-04-15T12:05:44+05:30",
+  "result": "NO_MATCH_FOUND",
+  "trust_score": 0,
+  "matched_cnmc": null,
+  "recommendation": "No corresponding entry was located in the National Material Code Master. This request may proceed to Technical Review.",
+  "available_actions": [
+    "PROCEED_WITH_NEW_REQUEST"
+  ]
+}
