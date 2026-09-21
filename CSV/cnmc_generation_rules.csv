@@ -1,0 +1,147 @@
+rule_id,block_name,digit_position,position_type,code_value,meaning,parent_block,parent_value,numeric_range_from,numeric_range_to,range_unit,notes
+RULE-0001,Segment,D1-D2,structural,N/A,Defers directly to published UNSPSC Segment/Family/Class/Commodity taxonomy — not enumerated in this rule book,,,,,,UNSPSC crosswalk maintained for direct compatibility
+RULE-0002,Family,D3-D4,structural,N/A,Defers directly to published UNSPSC Segment/Family/Class/Commodity taxonomy — not enumerated in this rule book,,,,,,UNSPSC crosswalk maintained for direct compatibility
+RULE-0003,Class,D5-D6,structural,N/A,Defers directly to published UNSPSC Segment/Family/Class/Commodity taxonomy — not enumerated in this rule book,,,,,,UNSPSC crosswalk maintained for direct compatibility
+RULE-0004,Commodity,D7-D8,structural,N/A,Defers directly to published UNSPSC Segment/Family/Class/Commodity taxonomy — not enumerated in this rule book,,,,,,UNSPSC crosswalk maintained for direct compatibility
+RULE-0005,MaterialGrade,D9-D10,structural,00,Not Applicable / Not material-graded,,,,,,Material composition or construction grade band
+RULE-0006,MaterialGrade,D9-D10,structural,01-09,Ferrous — Carbon Steel grades,,,01,09,,Material composition or construction grade band
+RULE-0007,MaterialGrade,D9-D10,structural,10-19,Ferrous — Alloy / Chrome / Tool Steel grades,,,10,19,,Material composition or construction grade band
+RULE-0008,MaterialGrade,D9-D10,structural,20-29,Stainless Steel grades,,,20,29,,Material composition or construction grade band
+RULE-0009,MaterialGrade,D9-D10,structural,30-39,"Non-ferrous metals (Brass, Copper, Aluminium, etc.)",,,30,39,,Material composition or construction grade band
+RULE-0010,MaterialGrade,D9-D10,structural,40-49,Polymer / Plastic grades,,,40,49,,Material composition or construction grade band
+RULE-0011,MaterialGrade,D9-D10,structural,50-59,Composite material grades,,,50,59,,Material composition or construction grade band
+RULE-0012,MaterialGrade,D9-D10,structural,60-69,Ceramic grades,,,60,69,,Material composition or construction grade band
+RULE-0013,MaterialGrade,D9-D10,structural,70-79,Rubber / Elastomer grades,,,70,79,,Material composition or construction grade band
+RULE-0014,MaterialGrade,D9-D10,structural,80-89,Reserved for future material families,,,80,89,,Material composition or construction grade band
+RULE-0015,MaterialGrade,D9-D10,structural,90-99,Other / Mixed / Non-standard material,,,90,99,,Material composition or construction grade band
+RULE-0016,MacroSizeBand,D11,structural,0,1 – 10 mm (Extra Small),,,1,10,mm,Universal absolute physical-size scale
+RULE-0017,MacroSizeBand,D11,structural,1,10 – 25 mm (Small),,,10,25,mm,Universal absolute physical-size scale
+RULE-0018,MacroSizeBand,D11,structural,2,25 – 50 mm (Small-Medium),,,25,50,mm,Universal absolute physical-size scale
+RULE-0019,MacroSizeBand,D11,structural,3,50 – 100 mm (Medium),,,50,100,mm,Universal absolute physical-size scale
+RULE-0020,MacroSizeBand,D11,structural,4,100 – 250 mm (Medium-Large),,,100,250,mm,Universal absolute physical-size scale
+RULE-0021,MacroSizeBand,D11,structural,5,250 – 500 mm (Large),,,250,500,mm,Universal absolute physical-size scale
+RULE-0022,MacroSizeBand,D11,structural,6,500 mm – 1 m (Extra Large),,,500,1000,mm,Universal absolute physical-size scale
+RULE-0023,MacroSizeBand,D11,structural,7,1 – 2.5 m (Oversized),,,1,2.5,m,Universal absolute physical-size scale
+RULE-0024,MacroSizeBand,D11,structural,8,2.5 – 10 m (Major / Structural),,,2.5,10,m,Universal absolute physical-size scale
+RULE-0025,MacroSizeBand,D11,structural,9,>10 m / Not Applicable / Non-dimensional (Non-dimensional),,,10,,m,Universal absolute physical-size scale
+RULE-0026,FineSubdivision,D12,conditional,0,Fine subdivision step 0 within macro band 0,MacroSizeBand,0,1.0,1.3,mm,Geometric progression step within 1-10 mm macro band
+RULE-0027,FineSubdivision,D12,conditional,1,Fine subdivision step 1 within macro band 0,MacroSizeBand,0,1.3,1.6,mm,Geometric progression step within 1-10 mm macro band
+RULE-0028,FineSubdivision,D12,conditional,2,Fine subdivision step 2 within macro band 0,MacroSizeBand,0,1.6,2.0,mm,Geometric progression step within 1-10 mm macro band
+RULE-0029,FineSubdivision,D12,conditional,3,Fine subdivision step 3 within macro band 0,MacroSizeBand,0,2.0,2.5,mm,Geometric progression step within 1-10 mm macro band
+RULE-0030,FineSubdivision,D12,conditional,4,Fine subdivision step 4 within macro band 0,MacroSizeBand,0,2.5,3.2,mm,Geometric progression step within 1-10 mm macro band
+RULE-0031,FineSubdivision,D12,conditional,5,Fine subdivision step 5 within macro band 0,MacroSizeBand,0,3.2,4.0,mm,Geometric progression step within 1-10 mm macro band
+RULE-0032,FineSubdivision,D12,conditional,6,Fine subdivision step 6 within macro band 0,MacroSizeBand,0,4.0,5.0,mm,Geometric progression step within 1-10 mm macro band
+RULE-0033,FineSubdivision,D12,conditional,7,Fine subdivision step 7 within macro band 0,MacroSizeBand,0,5.0,6.3,mm,Geometric progression step within 1-10 mm macro band
+RULE-0034,FineSubdivision,D12,conditional,8,Fine subdivision step 8 within macro band 0,MacroSizeBand,0,6.3,7.9,mm,Geometric progression step within 1-10 mm macro band
+RULE-0035,FineSubdivision,D12,conditional,9,Fine subdivision step 9 within macro band 0,MacroSizeBand,0,7.9,10.0,mm,Geometric progression step within 1-10 mm macro band
+RULE-0036,FineSubdivision,D12,conditional,0,Fine subdivision step 0 within macro band 1,MacroSizeBand,1,10.0,11.0,mm,Geometric progression step within 10-25 mm macro band
+RULE-0037,FineSubdivision,D12,conditional,1,Fine subdivision step 1 within macro band 1,MacroSizeBand,1,11.0,12.0,mm,Geometric progression step within 10-25 mm macro band
+RULE-0038,FineSubdivision,D12,conditional,2,Fine subdivision step 2 within macro band 1,MacroSizeBand,1,12.0,13.2,mm,Geometric progression step within 10-25 mm macro band
+RULE-0039,FineSubdivision,D12,conditional,3,Fine subdivision step 3 within macro band 1,MacroSizeBand,1,13.2,14.4,mm,Geometric progression step within 10-25 mm macro band
+RULE-0040,FineSubdivision,D12,conditional,4,Fine subdivision step 4 within macro band 1,MacroSizeBand,1,14.4,15.8,mm,Geometric progression step within 10-25 mm macro band
+RULE-0041,FineSubdivision,D12,conditional,5,Fine subdivision step 5 within macro band 1,MacroSizeBand,1,15.8,17.3,mm,Geometric progression step within 10-25 mm macro band
+RULE-0042,FineSubdivision,D12,conditional,6,Fine subdivision step 6 within macro band 1,MacroSizeBand,1,17.3,19.0,mm,Geometric progression step within 10-25 mm macro band
+RULE-0043,FineSubdivision,D12,conditional,7,Fine subdivision step 7 within macro band 1,MacroSizeBand,1,19.0,20.8,mm,Geometric progression step within 10-25 mm macro band
+RULE-0044,FineSubdivision,D12,conditional,8,Fine subdivision step 8 within macro band 1,MacroSizeBand,1,20.8,22.8,mm,Geometric progression step within 10-25 mm macro band
+RULE-0045,FineSubdivision,D12,conditional,9,Fine subdivision step 9 within macro band 1,MacroSizeBand,1,22.8,25.0,mm,Geometric progression step within 10-25 mm macro band
+RULE-0046,FineSubdivision,D12,conditional,0,Fine subdivision step 0 within macro band 2,MacroSizeBand,2,25.0,26.8,mm,Geometric progression step within 25-50 mm macro band
+RULE-0047,FineSubdivision,D12,conditional,1,Fine subdivision step 1 within macro band 2,MacroSizeBand,2,26.8,28.7,mm,Geometric progression step within 25-50 mm macro band
+RULE-0048,FineSubdivision,D12,conditional,2,Fine subdivision step 2 within macro band 2,MacroSizeBand,2,28.7,30.8,mm,Geometric progression step within 25-50 mm macro band
+RULE-0049,FineSubdivision,D12,conditional,3,Fine subdivision step 3 within macro band 2,MacroSizeBand,2,30.8,33.0,mm,Geometric progression step within 25-50 mm macro band
+RULE-0050,FineSubdivision,D12,conditional,4,Fine subdivision step 4 within macro band 2,MacroSizeBand,2,33.0,35.4,mm,Geometric progression step within 25-50 mm macro band
+RULE-0051,FineSubdivision,D12,conditional,5,Fine subdivision step 5 within macro band 2,MacroSizeBand,2,35.4,37.9,mm,Geometric progression step within 25-50 mm macro band
+RULE-0052,FineSubdivision,D12,conditional,6,Fine subdivision step 6 within macro band 2,MacroSizeBand,2,37.9,40.6,mm,Geometric progression step within 25-50 mm macro band
+RULE-0053,FineSubdivision,D12,conditional,7,Fine subdivision step 7 within macro band 2,MacroSizeBand,2,40.6,43.5,mm,Geometric progression step within 25-50 mm macro band
+RULE-0054,FineSubdivision,D12,conditional,8,Fine subdivision step 8 within macro band 2,MacroSizeBand,2,43.5,46.7,mm,Geometric progression step within 25-50 mm macro band
+RULE-0055,FineSubdivision,D12,conditional,9,Fine subdivision step 9 within macro band 2,MacroSizeBand,2,46.7,50.0,mm,Geometric progression step within 25-50 mm macro band
+RULE-0056,FineSubdivision,D12,conditional,0,Fine subdivision step 0 within macro band 3,MacroSizeBand,3,50.0,53.6,mm,Geometric progression step within 50-100 mm macro band
+RULE-0057,FineSubdivision,D12,conditional,1,Fine subdivision step 1 within macro band 3,MacroSizeBand,3,53.6,57.4,mm,Geometric progression step within 50-100 mm macro band
+RULE-0058,FineSubdivision,D12,conditional,2,Fine subdivision step 2 within macro band 3,MacroSizeBand,3,57.4,61.6,mm,Geometric progression step within 50-100 mm macro band
+RULE-0059,FineSubdivision,D12,conditional,3,Fine subdivision step 3 within macro band 3,MacroSizeBand,3,61.6,66.0,mm,Geometric progression step within 50-100 mm macro band
+RULE-0060,FineSubdivision,D12,conditional,4,Fine subdivision step 4 within macro band 3,MacroSizeBand,3,66.0,70.7,mm,Geometric progression step within 50-100 mm macro band
+RULE-0061,FineSubdivision,D12,conditional,5,Fine subdivision step 5 within macro band 3,MacroSizeBand,3,70.7,75.8,mm,Geometric progression step within 50-100 mm macro band
+RULE-0062,FineSubdivision,D12,conditional,6,Fine subdivision step 6 within macro band 3,MacroSizeBand,3,75.8,81.2,mm,Geometric progression step within 50-100 mm macro band
+RULE-0063,FineSubdivision,D12,conditional,7,Fine subdivision step 7 within macro band 3,MacroSizeBand,3,81.2,87.1,mm,Geometric progression step within 50-100 mm macro band
+RULE-0064,FineSubdivision,D12,conditional,8,Fine subdivision step 8 within macro band 3,MacroSizeBand,3,87.1,93.3,mm,Geometric progression step within 50-100 mm macro band
+RULE-0065,FineSubdivision,D12,conditional,9,Fine subdivision step 9 within macro band 3,MacroSizeBand,3,93.3,100.0,mm,Geometric progression step within 50-100 mm macro band
+RULE-0066,FineSubdivision,D12,conditional,0,Fine subdivision step 0 within macro band 4,MacroSizeBand,4,100.0,109.6,mm,Geometric progression step within 100-250 mm macro band
+RULE-0067,FineSubdivision,D12,conditional,1,Fine subdivision step 1 within macro band 4,MacroSizeBand,4,109.6,120.1,mm,Geometric progression step within 100-250 mm macro band
+RULE-0068,FineSubdivision,D12,conditional,2,Fine subdivision step 2 within macro band 4,MacroSizeBand,4,120.1,131.6,mm,Geometric progression step within 100-250 mm macro band
+RULE-0069,FineSubdivision,D12,conditional,3,Fine subdivision step 3 within macro band 4,MacroSizeBand,4,131.6,144.3,mm,Geometric progression step within 100-250 mm macro band
+RULE-0070,FineSubdivision,D12,conditional,4,Fine subdivision step 4 within macro band 4,MacroSizeBand,4,144.3,158.1,mm,Geometric progression step within 100-250 mm macro band
+RULE-0071,FineSubdivision,D12,conditional,5,Fine subdivision step 5 within macro band 4,MacroSizeBand,4,158.1,173.3,mm,Geometric progression step within 100-250 mm macro band
+RULE-0072,FineSubdivision,D12,conditional,6,Fine subdivision step 6 within macro band 4,MacroSizeBand,4,173.3,189.9,mm,Geometric progression step within 100-250 mm macro band
+RULE-0073,FineSubdivision,D12,conditional,7,Fine subdivision step 7 within macro band 4,MacroSizeBand,4,189.9,208.1,mm,Geometric progression step within 100-250 mm macro band
+RULE-0074,FineSubdivision,D12,conditional,8,Fine subdivision step 8 within macro band 4,MacroSizeBand,4,208.1,228.1,mm,Geometric progression step within 100-250 mm macro band
+RULE-0075,FineSubdivision,D12,conditional,9,Fine subdivision step 9 within macro band 4,MacroSizeBand,4,228.1,250.0,mm,Geometric progression step within 100-250 mm macro band
+RULE-0076,FineSubdivision,D12,conditional,0,Fine subdivision step 0 within macro band 5,MacroSizeBand,5,250.0,267.9,mm,Geometric progression step within 250-500 mm macro band
+RULE-0077,FineSubdivision,D12,conditional,1,Fine subdivision step 1 within macro band 5,MacroSizeBand,5,267.9,287.2,mm,Geometric progression step within 250-500 mm macro band
+RULE-0078,FineSubdivision,D12,conditional,2,Fine subdivision step 2 within macro band 5,MacroSizeBand,5,287.2,307.8,mm,Geometric progression step within 250-500 mm macro band
+RULE-0079,FineSubdivision,D12,conditional,3,Fine subdivision step 3 within macro band 5,MacroSizeBand,5,307.8,329.9,mm,Geometric progression step within 250-500 mm macro band
+RULE-0080,FineSubdivision,D12,conditional,4,Fine subdivision step 4 within macro band 5,MacroSizeBand,5,329.9,353.6,mm,Geometric progression step within 250-500 mm macro band
+RULE-0081,FineSubdivision,D12,conditional,5,Fine subdivision step 5 within macro band 5,MacroSizeBand,5,353.6,378.9,mm,Geometric progression step within 250-500 mm macro band
+RULE-0082,FineSubdivision,D12,conditional,6,Fine subdivision step 6 within macro band 5,MacroSizeBand,5,378.9,406.1,mm,Geometric progression step within 250-500 mm macro band
+RULE-0083,FineSubdivision,D12,conditional,7,Fine subdivision step 7 within macro band 5,MacroSizeBand,5,406.1,435.3,mm,Geometric progression step within 250-500 mm macro band
+RULE-0084,FineSubdivision,D12,conditional,8,Fine subdivision step 8 within macro band 5,MacroSizeBand,5,435.3,466.5,mm,Geometric progression step within 250-500 mm macro band
+RULE-0085,FineSubdivision,D12,conditional,9,Fine subdivision step 9 within macro band 5,MacroSizeBand,5,466.5,500.0,mm,Geometric progression step within 250-500 mm macro band
+RULE-0086,FineSubdivision,D12,conditional,0,Fine subdivision step 0 within macro band 6,MacroSizeBand,6,500.0,535.9,mm,Geometric progression step within 500-1000 mm macro band
+RULE-0087,FineSubdivision,D12,conditional,1,Fine subdivision step 1 within macro band 6,MacroSizeBand,6,535.9,574.3,mm,Geometric progression step within 500-1000 mm macro band
+RULE-0088,FineSubdivision,D12,conditional,2,Fine subdivision step 2 within macro band 6,MacroSizeBand,6,574.3,615.6,mm,Geometric progression step within 500-1000 mm macro band
+RULE-0089,FineSubdivision,D12,conditional,3,Fine subdivision step 3 within macro band 6,MacroSizeBand,6,615.6,659.8,mm,Geometric progression step within 500-1000 mm macro band
+RULE-0090,FineSubdivision,D12,conditional,4,Fine subdivision step 4 within macro band 6,MacroSizeBand,6,659.8,707.1,mm,Geometric progression step within 500-1000 mm macro band
+RULE-0091,FineSubdivision,D12,conditional,5,Fine subdivision step 5 within macro band 6,MacroSizeBand,6,707.1,757.9,mm,Geometric progression step within 500-1000 mm macro band
+RULE-0092,FineSubdivision,D12,conditional,6,Fine subdivision step 6 within macro band 6,MacroSizeBand,6,757.9,812.3,mm,Geometric progression step within 500-1000 mm macro band
+RULE-0093,FineSubdivision,D12,conditional,7,Fine subdivision step 7 within macro band 6,MacroSizeBand,6,812.3,870.6,mm,Geometric progression step within 500-1000 mm macro band
+RULE-0094,FineSubdivision,D12,conditional,8,Fine subdivision step 8 within macro band 6,MacroSizeBand,6,870.6,933.0,mm,Geometric progression step within 500-1000 mm macro band
+RULE-0095,FineSubdivision,D12,conditional,9,Fine subdivision step 9 within macro band 6,MacroSizeBand,6,933.0,1000.0,mm,Geometric progression step within 500-1000 mm macro band
+RULE-0096,FineSubdivision,D12,conditional,0,Fine subdivision step 0 within macro band 7,MacroSizeBand,7,1.0,1.1,m,Geometric progression step within 1-2.5 m macro band
+RULE-0097,FineSubdivision,D12,conditional,1,Fine subdivision step 1 within macro band 7,MacroSizeBand,7,1.1,1.2,m,Geometric progression step within 1-2.5 m macro band
+RULE-0098,FineSubdivision,D12,conditional,2,Fine subdivision step 2 within macro band 7,MacroSizeBand,7,1.2,1.32,m,Geometric progression step within 1-2.5 m macro band
+RULE-0099,FineSubdivision,D12,conditional,3,Fine subdivision step 3 within macro band 7,MacroSizeBand,7,1.32,1.44,m,Geometric progression step within 1-2.5 m macro band
+RULE-0100,FineSubdivision,D12,conditional,4,Fine subdivision step 4 within macro band 7,MacroSizeBand,7,1.44,1.58,m,Geometric progression step within 1-2.5 m macro band
+RULE-0101,FineSubdivision,D12,conditional,5,Fine subdivision step 5 within macro band 7,MacroSizeBand,7,1.58,1.73,m,Geometric progression step within 1-2.5 m macro band
+RULE-0102,FineSubdivision,D12,conditional,6,Fine subdivision step 6 within macro band 7,MacroSizeBand,7,1.73,1.9,m,Geometric progression step within 1-2.5 m macro band
+RULE-0103,FineSubdivision,D12,conditional,7,Fine subdivision step 7 within macro band 7,MacroSizeBand,7,1.9,2.08,m,Geometric progression step within 1-2.5 m macro band
+RULE-0104,FineSubdivision,D12,conditional,8,Fine subdivision step 8 within macro band 7,MacroSizeBand,7,2.08,2.28,m,Geometric progression step within 1-2.5 m macro band
+RULE-0105,FineSubdivision,D12,conditional,9,Fine subdivision step 9 within macro band 7,MacroSizeBand,7,2.28,2.5,m,Geometric progression step within 1-2.5 m macro band
+RULE-0106,FineSubdivision,D12,conditional,0,Fine subdivision step 0 within macro band 8,MacroSizeBand,8,2.5,2.87,m,Geometric progression step within 2.5-10 m macro band
+RULE-0107,FineSubdivision,D12,conditional,1,Fine subdivision step 1 within macro band 8,MacroSizeBand,8,2.87,3.3,m,Geometric progression step within 2.5-10 m macro band
+RULE-0108,FineSubdivision,D12,conditional,2,Fine subdivision step 2 within macro band 8,MacroSizeBand,8,3.3,3.79,m,Geometric progression step within 2.5-10 m macro band
+RULE-0109,FineSubdivision,D12,conditional,3,Fine subdivision step 3 within macro band 8,MacroSizeBand,8,3.79,4.35,m,Geometric progression step within 2.5-10 m macro band
+RULE-0110,FineSubdivision,D12,conditional,4,Fine subdivision step 4 within macro band 8,MacroSizeBand,8,4.35,5.0,m,Geometric progression step within 2.5-10 m macro band
+RULE-0111,FineSubdivision,D12,conditional,5,Fine subdivision step 5 within macro band 8,MacroSizeBand,8,5.0,5.74,m,Geometric progression step within 2.5-10 m macro band
+RULE-0112,FineSubdivision,D12,conditional,6,Fine subdivision step 6 within macro band 8,MacroSizeBand,8,5.74,6.6,m,Geometric progression step within 2.5-10 m macro band
+RULE-0113,FineSubdivision,D12,conditional,7,Fine subdivision step 7 within macro band 8,MacroSizeBand,8,6.6,7.58,m,Geometric progression step within 2.5-10 m macro band
+RULE-0114,FineSubdivision,D12,conditional,8,Fine subdivision step 8 within macro band 8,MacroSizeBand,8,7.58,8.71,m,Geometric progression step within 2.5-10 m macro band
+RULE-0115,FineSubdivision,D12,conditional,9,Fine subdivision step 9 within macro band 8,MacroSizeBand,8,8.71,10.0,m,Geometric progression step within 2.5-10 m macro band
+RULE-0116,FineSubdivision,D12,conditional,0,Fine subdivision step 0 within macro band 9 (>10m / N/A),MacroSizeBand,9,,,,Non-dimensional or >10m band — subdivisions not applicable
+RULE-0117,FineSubdivision,D12,conditional,1,Fine subdivision step 1 within macro band 9 (>10m / N/A),MacroSizeBand,9,,,,Non-dimensional or >10m band — subdivisions not applicable
+RULE-0118,FineSubdivision,D12,conditional,2,Fine subdivision step 2 within macro band 9 (>10m / N/A),MacroSizeBand,9,,,,Non-dimensional or >10m band — subdivisions not applicable
+RULE-0119,FineSubdivision,D12,conditional,3,Fine subdivision step 3 within macro band 9 (>10m / N/A),MacroSizeBand,9,,,,Non-dimensional or >10m band — subdivisions not applicable
+RULE-0120,FineSubdivision,D12,conditional,4,Fine subdivision step 4 within macro band 9 (>10m / N/A),MacroSizeBand,9,,,,Non-dimensional or >10m band — subdivisions not applicable
+RULE-0121,FineSubdivision,D12,conditional,5,Fine subdivision step 5 within macro band 9 (>10m / N/A),MacroSizeBand,9,,,,Non-dimensional or >10m band — subdivisions not applicable
+RULE-0122,FineSubdivision,D12,conditional,6,Fine subdivision step 6 within macro band 9 (>10m / N/A),MacroSizeBand,9,,,,Non-dimensional or >10m band — subdivisions not applicable
+RULE-0123,FineSubdivision,D12,conditional,7,Fine subdivision step 7 within macro band 9 (>10m / N/A),MacroSizeBand,9,,,,Non-dimensional or >10m band — subdivisions not applicable
+RULE-0124,FineSubdivision,D12,conditional,8,Fine subdivision step 8 within macro band 9 (>10m / N/A),MacroSizeBand,9,,,,Non-dimensional or >10m band — subdivisions not applicable
+RULE-0125,FineSubdivision,D12,conditional,9,Fine subdivision step 9 within macro band 9 (>10m / N/A),MacroSizeBand,9,,,,Non-dimensional or >10m band — subdivisions not applicable
+RULE-0126,PressureRatingClass,D13,structural,0,Not Applicable,,,,,,"Pressure, load, or voltage rating class"
+RULE-0127,PressureRatingClass,D13,structural,1,Low rating (≤10 bar / equivalent low-load class),,,0,10,bar,"Pressure, load, or voltage rating class"
+RULE-0128,PressureRatingClass,D13,structural,2,Medium rating (10–40 bar equivalent),,,10,40,bar,"Pressure, load, or voltage rating class"
+RULE-0129,PressureRatingClass,D13,structural,3,High rating (40–100 bar equivalent),,,40,100,bar,"Pressure, load, or voltage rating class"
+RULE-0130,PressureRatingClass,D13,structural,4,Very High rating (>100 bar equivalent),,,100,,bar,"Pressure, load, or voltage rating class"
+RULE-0131,PressureRatingClass,D13,structural,5,Reserved for class-specific rating extensions (e.g. electrical voltage classes),,,,,,"Pressure, load, or voltage rating class"
+RULE-0132,PressureRatingClass,D13,structural,6,Reserved for class-specific rating extensions,,,,,,"Pressure, load, or voltage rating class"
+RULE-0133,PressureRatingClass,D13,structural,7,Reserved for class-specific rating extensions,,,,,,"Pressure, load, or voltage rating class"
+RULE-0134,PressureRatingClass,D13,structural,8,Reserved for class-specific rating extensions,,,,,,"Pressure, load, or voltage rating class"
+RULE-0135,PressureRatingClass,D13,structural,9,Reserved for class-specific rating extensions,,,,,,"Pressure, load, or voltage rating class"
+RULE-0136,UoMCategory,D14,structural,1,Numbers (Nos),,,,,,Unit of measure category for stocking/issuing
+RULE-0137,UoMCategory,D14,structural,2,Weight (Kg/Tonne),,,,,,Unit of measure category for stocking/issuing
+RULE-0138,UoMCategory,D14,structural,3,Length (Metre),,,,,,Unit of measure category for stocking/issuing
+RULE-0139,UoMCategory,D14,structural,4,Volume (Litre),,,,,,Unit of measure category for stocking/issuing
+RULE-0140,UoMCategory,D14,structural,5,Set,,,,,,Unit of measure category for stocking/issuing
+RULE-0141,UoMCategory,D14,structural,6,Roll,,,,,,Unit of measure category for stocking/issuing
+RULE-0142,UoMCategory,D14,structural,7,Pair,,,,,,Unit of measure category for stocking/issuing
+RULE-0143,UoMCategory,D14,structural,8,Box/Pack,,,,,,Unit of measure category for stocking/issuing
+RULE-0144,UoMCategory,D14,structural,9,Other,,,,,,Unit of measure category for stocking/issuing
+RULE-0145,SequentialID,D15,structural,0-9,Sequential identifier assigned by registry,,,0,9,,Disambiguates distinct national material records with identical digits 1-14; assigned sequentially by issuing registry
+RULE-0146,CheckDigit,D16,structural,0-9,Luhn-style modulus-10 checksum,,,0,9,,Computed via weighted modulus-10 checksum across digits 1-15 for error detection
