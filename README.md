@@ -2,10 +2,6 @@
 
 # PRAKALP
 
-### National Material Code Harmonization Platform
-
-*A governance platform for unified material identification across Central Public Sector Enterprises*
-
 ---
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)
