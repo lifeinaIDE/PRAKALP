@@ -1,7 +1,0 @@
-plant_code,cpse_short_code,plant_name,sector,location,onboarded_date,status
-BHEL-HEEP,BHEL,"Heavy Electrical Equipment Plant, Hyderabad",Heavy Engineering,"Hyderabad, Telangana",2025-01-15,Active
-NTPC-TPS,NTPC,"Thermal Power Station, Vindhyachal",Power Generation,"Singrauli, Madhya Pradesh",2025-01-27,Active
-SAIL-RSP,SAIL,Rourkela Steel Plant,Steel,"Rourkela, Odisha",2025-02-08,Active
-IOCL-BR,IOCL,Barauni Refinery,Oil & Gas Refining,"Begusarai, Bihar",2025-02-20,Active
-ONGC-HZR,ONGC,Hazira Gas Processing Complex,Oil & Gas Exploration,"Hazira, Gujarat",2025-03-04,Active
-BPCL-MR,BPCL,Mumbai Refinery,Oil & Gas Refining,"Mumbai, Maharashtra",2025-03-16,Active
